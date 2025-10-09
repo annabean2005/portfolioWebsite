@@ -1,0 +1,223 @@
+/* Anna Raffaele
+   Fall 2025 Semester */
+
+
+/* screen fill color */
+body {
+    background-color: rgb(228, 245, 193);
+}
+
+/*----------------------------------------------------------------*/
+/* PRESTON HELP */
+    /* Navigation Bar */
+.navbar {
+  background-color: #1f3521;        /* dark background */
+  padding: 0.5em 1em;            /* spacing inside the bar */
+  opacity: 80%;
+}
+
+.navbar ul {
+  list-style: none;              /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;                 /* horizontal layout */
+}
+
+.navbar li {
+  margin-right: 20px;            /* spacing between links */
+}
+
+.navbar a {
+  color: rgb(142, 223, 149);                  /* link text color */
+  text-decoration: none;         /* remove underline */
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #81e6d3;                /* hover effect */
+}
+/*----------------------------------------------------------------*/
+
+/*------------------------ HEADERS ----------------------------*/
+/* header 1*/
+h1 {
+    color: rgb(9, 61, 37);
+    /*margin-left: center;*/
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-size: xx-large;
+}
+
+/* header 2*/
+h2 {
+    color: rgb(11, 82, 49);
+    border-radius: 15%;
+    text-align: center;
+    padding-top: 20px;
+}
+/*----------------------------------------------------------------*/
+
+/*-------------------------- IMAGES -----------------------------*/
+/* for rounded and bordered images */
+.rounded-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 15%;
+    overflow: hidden;
+    border: 5px solid rgb(16, 87, 42);
+}
+
+.rounded-image-long{
+  width: 478px;
+  height: 359px;
+  border-radius: 15%;
+  overflow: hidden;
+  border: 5px solid rgb(16, 87, 42);
+  object-fit: fill;
+  margin-top: 20px;
+}
+/*----------------------------------------------------------------*/
+
+/*----------------------- WRAPPER ----------------------------*/
+.wrapper {
+    width: 1000px; 
+    background-color: #5b8960;
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: center;
+    border-radius: 5%;
+    border: 1px solid #5b8960;
+  }
+/*----------------------------------------------------------------*/
+
+/*---------------------- WHITESPACE ------------------------------*/
+.spacetop {
+    margin-top: 200px;
+}
+/*----------------------------------------------------------------*/
+
+/* --------------- TABLE ------------------- */
+table {
+  width: 450px;
+  border-collapse: initial; /*outlin or no outline for the table*/
+  border-spacing: 0;
+  background-color: #5b8960;
+  text-align: center;
+  border: 3px solid green;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th,
+td {
+  margin: 0px;
+  /* set the css here */
+}
+
+tr:nth-child(even) {
+  background-color: #c2f6c4;
+}
+
+.tableWrapper {
+  background-color: #5b8960;
+  object-fit: contain;
+  width: 750px;
+  height: 500px;
+  padding-left: 20%;
+  position: relative;
+  margin-left: 25%;
+  float: inline-start;
+}
+/* ------------------------------------------ */
+
+/*-------------------------FLEX CONTAINERS ----------------------------*/
+/* FLEX CONTAINER */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 10px;
+  background-color: #5b8960;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 1340px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+  border-radius: 5%;
+}
+
+/*.flex-conatiner > div {
+  background-color: dodgerblue;
+  color: white;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}*/
+/*-------------------------------*/
+
+/*------------------------- FOOTER ----------------------------*/
+.footer {
+  margin-top: 50px;
+  text-align: center;
+}
+
+/*-------------------------*/
+/* FOR HOMEWORK PAGE */
+/*-------------------------*/
+
+.homeworkWrapper{
+  background-color: #84c28b;
+  width: 750px;
+  height: 700px;
+  border-radius: 15%;
+}
+
+.homeworkWrapperMiddle{
+  background-color: #84c28b;
+  width: 750px;
+  height: 700px;
+  border-radius: 15%;
+  margin: auto;
+}
+
+.HWflex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 10px;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 50px;
+}
+
+button{
+  background-color: #5b8960;
+  border-color: #1f3521;
+  text-align: center;
+  width: fit-content;
+  padding: 10px 30px;
+}
+
+/* row breaker  
+.break{
+  flex-basis:100%;
+  height: 0;
+  width:100%;
+} */
